@@ -407,7 +407,7 @@ class SimulationParams:
     output_dir: Path = output_dir
 
     def __post_init__(self):
-        if self.energy_based_only:
+        if self.adaptive_only:
             self.output_dir = self.output_dir / "adaptive_only"
         else:
             self.output_dir = self.output_dir / "with_pd_controller"
