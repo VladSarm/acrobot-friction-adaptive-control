@@ -390,7 +390,7 @@ The option `is_energy_based_only` allows running the simulation with only the en
 
 1. Xin, X., & Kaneda, M. (2007). Analysis of the energy-based swing-up control of the Acrobot. International Journal of Robust and Nonlinear Control, 17(16), 1503-1524.
 
-2. Fantoni, I., Lozano, R., & Spong, M. W. (2000). Energy based control of the Pendubot. IEEE Transactions on Automatic Control, 45(4), 725-729.
+2. Fantoni, I., Lozano, R., & Spong, M. W., (2000). Energy based control of the Pendubot. IEEE Transactions on Automatic Control, 45(4), 725-729.
 
 3. Kolesnichenko, O., & Shiriaev, A. S. (2002). Partial stabilization of underactuated Euler-Lagrange systems via a class of feedback transformations. Systems & Control Letters, 45(2), 121-132.
 
