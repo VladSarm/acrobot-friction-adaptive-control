@@ -219,6 +219,16 @@ Where:
 
 ## 📊 Experiments Definition
 
+### Previous Energy Based Solution
+
+<p align="center">
+  <img src="gfx/full_stabilization/plots.png" alt="energy-based only with friction plots" height="250" width="250">
+  <img src="gfx/full_stabilization/acrobot.gif" alt="energy-based control with friction only" height="250" width="250">
+</p>
+<p align="center">
+  <em>Acrobot using only energy-based controller (with PD stabilization) as initial solution</em>
+</p>
+
 ### Energy based control with viscous friction
 
 We introduced viscous friction in the second joint with energy based control without adaptation.
