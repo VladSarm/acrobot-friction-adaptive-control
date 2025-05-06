@@ -29,19 +29,17 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Running the Simulation
 
-To run the standard simulation with full stabilization:
+To run the standard simulation (without friction)
 
 ```bash
+# Full stabilization
 uv run acrobot.py
+
+# Energy based only
+uv run acrobot.py --energy-based-only
 ```
 
-The plots and animation will be saved to `gfx/adaptive_control/`.
-
-To run the simulation with only the energy-based controller (without switching to PD control):
-
-```bash
-uv run acrobot.py --adaptive-only
-```
+The files `acrobot_friction.py`, `acrobot_friction_adaptive.py` and `acrobot_friction_compesation.py` work in a similar way and correpond to launching controllers for the acrobot with friction.
 
 This alternative simulation output will be saved to `gfx/energy_based_only/`.
 
